@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #111111;
+}
+header,
+footer {
+    background-color: #232F3E;
+    font-size: 1.125rem;
+    color: #fff; 
+    height: 4.375rem; 
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    width: 52rem;
+    margin: 1.5rem 0;
+}
+a{
+    color: #000;
+}
+img{
+    margin: 1.3rem 0;
+}
+small{
+    display: block;
+}
+
+.hero img{
+    width: 100%;
+}
+.content p{
+    margin: 1.3rem 0;
+    width: 47rem; 
+}
+
+.conteiner{
+    max-width: 46rem;
+    margin: 0 auto;
+
+}
+.content ul{
+   margin: 1.5rem;
+}
+.content button{
+    font-size: 1.2rem;
+    color: #111111;
+    background-color: #FFC941;
+    padding: 0.9rem 7rem;
+    border: 0;
+    margin: 2rem 0;
+    border-radius: 1rem;
+
+}
+.links{
+    width: 100%;
+    background-color: #F4F4F4;
+
+}
+.links_content{
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+.links_content p{
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+.links_content ul{
+    list-style: none;
+    line-height: 2rem;
+
+}
+.links_content ul li a{
+    color: #3281F8;
+
+}
+
+
+.subscribe input{
+    width: 20rem;
+    padding: 0.75rem 0.5rem;
+    background-color: transparent;
+    border: 1px solid #37475A;
+}
+
+.subscribe button{
+    width: 3.5rem;
+    padding: 0.75rem 0.5rem;
+    background-color: #CCD4DD;
+    border: none;
+
+}
+   
